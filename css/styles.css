@@ -1,0 +1,69 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+
+.bg_home {
+    background-image: linear-gradient(to right, #2c3e50, #bdc3c7);
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.content_home {
+    position: relative;
+    z-index: 2;
+    border-left: 2px solid #ffffff;
+    margin-left: 200px;
+}
+
+.big_b {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 740px;
+    font-weight: bold;
+    line-height: 1.15;
+    color: rgba(92, 199, 188, 0.12);
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+}
+
+.hero {
+    font-size: 105px;
+    font-weight: bold;
+    line-height: 1.15;
+    text-align: left;
+    color: #ffffff;
+    padding: 30px;
+}
+
+.hero_menu {
+    list-style: none;
+    padding-left: 2px;
+}
+
+.hero_menu li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.hero_menu a {
+    font-size: 25px;
+    font-weight: normal;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.51);
+}
+
+#about_big {
+    z-index: 6;
+    font-family: Arial;
+    font-size: 120px;
+    color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
