@@ -138,6 +138,8 @@ header h1 {
     opacity: 0.85;
 }
 
+
+
 #cd-nav li:last-child a {
     border-bottom: none;
 }
@@ -183,6 +185,10 @@ header h1 {
         border-bottom: 2px solid #FFF;
     }
 
+    #cd-nav li a.active {
+        border-bottom: 2px solid #FFF;
+    }
+
     #cd-nav.is-fixed ul {
         /* when the user scrolls down, the navigation moves to the bottom right in Fixed position - as on touch devices */
         position: fixed;
@@ -190,7 +196,7 @@ header h1 {
         max-width: 400px;
         bottom: 20px;
         top: auto;
-        background: white;
+        background: rgba(214, 214, 214, 0.63);
         visibility: hidden;
         box-shadow: 0 0 10px rgba(229, 249, 234, 0.4);
         -webkit-transform: scale(0);
@@ -249,7 +255,7 @@ header h1 {
     right: 5%;
     width: 44px;
     height: 44px;
-    background: white;
+    background: #969696;
     border-radius: 0.25em;
     box-shadow: 0 0 10px rgba(229, 249, 234, 0.4);
     /* image replacement */
@@ -506,12 +512,17 @@ header h1 {
         transform: scale(1);
     }
 }
-
+section {
+    height: 100vh;
+}
 .bg_home {
     background-image: linear-gradient(to right, #2c3e50, #bdc3c7);
-    height: 100vh;
     font-family: 'Ubuntu', sans-serif;
-    /*position: relative;*/
+}
+
+.bg_about {
+    background-image: linear-gradient(to right, #2c3e50, #fa0274);
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .content_home {
@@ -519,6 +530,12 @@ header h1 {
     z-index: 2;
     border-left: 2px solid #ffffff;
     margin-left: 200px;
+}
+
+.content_about {
+    position: relative;
+    z-index: 2;
+    margin-left: 202px;
 }
 
 .big_b {
@@ -540,7 +557,6 @@ header h1 {
     text-align: left;
     color: #ffffff;
     padding: 30px;
-
 }
 
 .hero_menu {
