@@ -138,8 +138,6 @@ header h1 {
     opacity: 0.85;
 }
 
-
-
 #cd-nav li:last-child a {
     border-bottom: none;
 }
@@ -512,9 +510,10 @@ header h1 {
         transform: scale(1);
     }
 }
-section {
-    height: 100vh;
-}
+
+/*section {*/
+/*height: 100vh;*/
+/*}*/
 .bg_home {
     background-image: linear-gradient(to right, #2c3e50, #bdc3c7);
     font-family: 'Ubuntu', sans-serif;
@@ -536,6 +535,44 @@ section {
     position: relative;
     z-index: 2;
     margin-left: 202px;
+}
+
+.content_about h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.content_about p {
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.who-we-are {
+    background-color: rgba(189, 195, 199, 0.09) !important;
+}
+
+.read-more {
+    position: relative;
+    left: 230px;
+    bottom: -70px;
+    z-index: 99999;
+    color: #FFF;
+    text-decoration: none;
+    text-underline: none;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+.read-more img {
+    width: 20px;
+}
+
+
+.clients-bg {
+    background-color: #E4E5E8 !important;
 }
 
 .big_b {
