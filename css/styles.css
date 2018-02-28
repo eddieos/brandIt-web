@@ -549,8 +549,41 @@ header h1 {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.who-we-are {
+.who-we-are-bg {
     background-color: rgba(189, 195, 199, 0.09) !important;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 150px 140px;
+}
+
+.who-we-are-bg .header {
+    font-size: 40px;
+    width: fit-content;
+    font-weight: normal;
+    padding-bottom: 20px;
+    color: rgba(241, 4, 114, 0.7);
+    border-bottom: 1px solid #EF0572;
+}
+
+.who-we-are-bg p {
+    color: rgba(50, 60, 81, 0.7);
+    font-size: 25px;
+    margin: 20px 50px;
+    font-weight: lighter;
+    line-height: 30px;
+
+}
+.arrow-down {
+    position: relative;
+    left: 10px;
+    bottom: -70px;
+    z-index: 99999;
+}
+.arrow-down img {
+    width: 20px;
+}
+
+.fp-tableCell {
+    vertical-align: inherit;
 }
 
 .read-more {
@@ -569,7 +602,6 @@ header h1 {
 .read-more img {
     width: 20px;
 }
-
 
 .clients-bg {
     background-color: #E4E5E8 !important;
