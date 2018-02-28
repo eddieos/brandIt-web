@@ -93,11 +93,11 @@ jQuery(document).ready(function($){
 
         //Design
         controlArrows: true,
-        verticalCentered: true,
+        verticalCentered: false,
         sectionsColor : ['#ccc', '#fff'],
-        paddingTop: '3em',
-        paddingBottom: '10px',
-        fixedElements: '#header, .footer',
+        // paddingTop: '3em',
+        // paddingBottom: '10px',
+        // fixedElements: '#header, .footer',
         responsiveWidth: 0,
         responsiveHeight: 0,
         responsiveSlides: false,
@@ -119,7 +119,7 @@ jQuery(document).ready(function($){
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
     });
-    $('#about').fullpage({
+    $('#services').fullpage({
         //Navigation
         menu: '#menu',
         lockAnchors: false,
