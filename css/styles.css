@@ -511,9 +511,6 @@ header h1 {
     }
 }
 
-/*section {*/
-/*height: 100vh;*/
-/*}*/
 .bg_home {
     background-image: linear-gradient(to right, #2c3e50, #bdc3c7);
     font-family: 'Ubuntu', sans-serif;
@@ -552,7 +549,7 @@ header h1 {
 .who-we-are-bg {
     background-color: rgba(189, 195, 199, 0.09) !important;
     font-family: 'Ubuntu', sans-serif;
-    padding: 150px 140px;
+    padding: 50px 140px;
 }
 
 .who-we-are-bg .header {
@@ -572,28 +569,25 @@ header h1 {
     line-height: 30px;
 
 }
+
 .arrow-down {
-    position: relative;
-    left: 10px;
-    bottom: -70px;
+    position: absolute;
+    left: 145px;
+    bottom: 50px;
     z-index: 99999;
 }
+
 .arrow-down img {
     width: 20px;
 }
 
-.fp-tableCell {
-    vertical-align: inherit;
-}
-
 .read-more {
-    position: relative;
+    position: absolute;
     left: 230px;
-    bottom: -70px;
+    bottom: 30px;
     z-index: 99999;
     color: #FFF;
     text-decoration: none;
-    text-underline: none;
     font-size: 12px;
     line-height: 30px;
     font-weight: 100;
@@ -605,6 +599,73 @@ header h1 {
 
 .clients-bg {
     background-color: #E4E5E8 !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.clients-bg .header {
+    font-size: 40px;
+    width: fit-content;
+    font-weight: normal;
+    padding-bottom: 20px;
+    color: rgba(50, 60, 81, 0.7);
+    border-bottom: 1px solid #343B51;
+}
+
+.clients-content {
+    padding: 70px;
+}
+
+.clients-grid {
+    width: 435px;
+    margin-top: 40px;
+}
+
+.clients-grid img {
+    width: 135px;
+    height: 66px;
+    margin-bottom: 10px;
+}
+
+.clients-content p {
+    color: rgba(50, 60, 81, 0.7);
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: lighter;
+    line-height: 35px;
+
+}
+
+.request-bg {
+    background-color: #343B51;
+    height: 100vh;
+    padding: 70px 50px;
+}
+
+.request-bg p {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.request-bg .list {
+
+    width: 128px;
+    position: absolute;
+    bottom: 80px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E4E5E8;
+}
+
+.request-bg .list li {
+    margin-bottom: 25px;
+}
+
+.request-bg .list li a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
 }
 
 .big_b {
