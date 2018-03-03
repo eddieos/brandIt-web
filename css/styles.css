@@ -521,6 +521,11 @@ header h1 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.bg_services {
+    background-image: linear-gradient(to right, #2c3e50, #ae02fa);
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .content_home {
     position: relative;
     z-index: 2;
@@ -544,6 +549,12 @@ header h1 {
     margin-top: 30px;
     font-weight: 100;
     color: rgba(255, 255, 255, 0.7);
+}
+
+.content_services {
+    left: 202px;
+    top: -120px;
+    position: relative;
 }
 
 .who-we-are-bg {
@@ -649,7 +660,6 @@ header h1 {
 }
 
 .request-bg .list {
-
     width: 128px;
     position: absolute;
     bottom: 80px;
@@ -678,6 +688,50 @@ header h1 {
     top: 30px;
     left: 120px;
     overflow: hidden;
+}
+
+.big_s {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 740px;
+    font-weight: bold;
+    color: rgba(180, 0, 255, 0.12);
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 202px;
+    overflow: hidden;
+}
+
+.content_services .hero p {
+    color: #AF00FF;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.content_services .hero .list li {
+    z-index: 9;
+    position: relative;
+    margin-bottom: 5px;
+    line-height: 60px;
+    margin-left: 20px;
+}
+
+.content_services .hero .list li a {
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.center-dot {
+    background-color: #A705F1;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -20px;
+    margin-left: -3px;
 }
 
 .hero {

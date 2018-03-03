@@ -53,7 +53,7 @@ jQuery(document).ready(function($){
         anchors:['About', 'Who We Are', 'Clients'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['About', 'Who We Are'],
+        navigationTooltips: ['About', 'Who We Are', 'Clients'],
         showActiveTooltip: false,
         slidesNavigation: false,
         slidesNavPosition: 'bottom',
@@ -119,14 +119,15 @@ jQuery(document).ready(function($){
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
     });
+
     $('#services').fullpage({
         //Navigation
         menu: '#menu',
         lockAnchors: false,
-        anchors:['About', 'Who We Are', 'Clients'],
+        anchors:['UI/UX', 'BRANDING', 'DIGITAL MARKETING'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['About', 'Who We Are'],
+        navigationTooltips: ['UI/UX', 'BRANDING', 'DIGITAL MARKETING'],
         showActiveTooltip: false,
         slidesNavigation: false,
         slidesNavPosition: 'bottom',
