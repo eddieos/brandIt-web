@@ -124,10 +124,10 @@ jQuery(document).ready(function($){
         //Navigation
         menu: '#menu',
         lockAnchors: false,
-        anchors:['UI/UX', 'BRANDING', 'DIGITAL MARKETING'],
+        anchors:['Services', 'UI/UX', 'BRANDING', 'DIGITAL MARKETING'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['UI/UX', 'BRANDING', 'DIGITAL MARKETING'],
+        navigationTooltips: ['Services', 'UI/UX', 'BRANDING', 'DIGITAL MARKETING'],
         showActiveTooltip: false,
         slidesNavigation: false,
         slidesNavPosition: 'bottom',
@@ -167,7 +167,7 @@ jQuery(document).ready(function($){
 
         //Design
         controlArrows: true,
-        verticalCentered: true,
+        verticalCentered: false,
         sectionsColor : ['#ccc', '#fff'],
         paddingTop: '3em',
         paddingBottom: '10px',
