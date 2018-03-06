@@ -781,7 +781,7 @@ header h1 {
     font-size: 16px;
     color: #ffffff;
     position: relative;
-    top: -40px;
+    top: -50px;
 }
 
 .header_services img {
@@ -795,6 +795,18 @@ header h1 {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #2C3E50;
+}
+
+.list_service {
+    position: absolute;
+    left: 300px;
+    top: 185px;
+}
+.list_service li {
+    margin-bottom: 24px;
+    color: rgba(11, 16, 21, 0.7);
+    font-size: 20px;
 }
 
 .card_box {
