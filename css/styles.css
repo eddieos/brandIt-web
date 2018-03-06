@@ -511,6 +511,10 @@ header h1 {
     }
 }
 
+#fp-nav ul li .fp-tooltip {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .bg_home {
     background-image: linear-gradient(to right, #2c3e50, #bdc3c7);
     font-family: 'Ubuntu', sans-serif;
@@ -524,6 +528,10 @@ header h1 {
 .bg_services {
     background-image: linear-gradient(to right, #2c3e50, #ae02fa);
     font-family: 'Ubuntu', sans-serif;
+}
+
+.ui-ux {
+    background-color: #2C3E50 !important;
 }
 
 .content_home {
@@ -765,3 +773,68 @@ header h1 {
     color: #FFFFFF;
 }
 
+.card_services {
+    position: relative;
+}
+
+.header_services {
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    top: -40px;
+}
+
+.header_services img {
+    width: 28px;
+    position: relative;
+    top: 1px;
+    padding-right: 15px;
+}
+
+.title_services {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card_box {
+    width: 375px;
+    height: 450px;
+    position: relative;
+    left: -180px;
+    top: 40px;
+    border: 1px solid #707070;
+    background-color: #ffffff;
+    -webkit-box-shadow: 20px 20px 0px 0px rgba(44, 62, 80, 1);
+    -moz-box-shadow: 20px 20px 0px 0px rgba(44, 62, 80, 1);
+    box-shadow: 20px 20px 0px 0px rgba(44, 62, 80, 1);
+}
+
+.card_box_content {
+    padding: 20px;
+}
+
+.card_box p {
+    color: rgba(50, 60, 81, 0.7);
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 20px;
+}
+
+.big_service_name {
+    position: absolute;
+    font-size: 160px;
+    color: rgba(44, 62, 80, 0.05);
+    bottom: 0px;
+    right: 10px;
+}
+
+.bigger_box {
+    width: 840px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.62);
+    position: absolute;
+    top: 45px;
+    left: 25%;
+}

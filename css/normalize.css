@@ -1,4 +1,6 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Font Family */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
 
 /* Document
    ========================================================================== */
@@ -13,6 +15,7 @@ html {
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* Sections
@@ -24,6 +27,7 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /**
@@ -37,6 +41,7 @@ header,
 nav,
 section {
   display: block;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /**
@@ -47,6 +52,7 @@ section {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* Grouping content
@@ -61,6 +67,7 @@ figcaption,
 figure,
 main { /* 1 */
   display: block;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /**
@@ -103,6 +110,7 @@ pre {
 a {
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /**
@@ -123,6 +131,7 @@ abbr[title] {
 b,
 strong {
   font-weight: inherit;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /**
@@ -246,6 +255,7 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /**
@@ -326,6 +336,7 @@ legend {
   max-width: 100%; /* 1 */
   padding: 0; /* 3 */
   white-space: normal; /* 1 */
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /**
