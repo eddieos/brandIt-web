@@ -543,6 +543,10 @@ header h1 {
     background-color: #463272 !important;
 }
 
+.projects {
+    background-color: #164BA9 !important;
+}
+
 .content_home {
     position: relative;
     z-index: 2;
@@ -574,6 +578,26 @@ header h1 {
     position: relative;
 }
 
+.content_projects {
+    left: 250px;
+    top: -50px;
+    position: relative;
+}
+
+.content_projects h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.content_projects p {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 100;
+    width: 400px;
+    line-height: 29px;
+    margin-top: 30px;
+}
+
 .who-we-are-bg {
     background-color: rgba(189, 195, 199, 0.09) !important;
     font-family: 'Ubuntu', sans-serif;
@@ -603,6 +627,10 @@ header h1 {
     left: 145px;
     bottom: 50px;
     z-index: 99999;
+}
+
+.bg_projects .arrow-down {
+    left: 280px;
 }
 
 .arrow-down img {
@@ -719,6 +747,18 @@ header h1 {
     overflow: hidden;
 }
 
+.big_p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 740px;
+    font-weight: bold;
+    color: rgba(86, 144, 253, 0.11);
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 202px;
+    overflow: hidden;
+}
+
 .content_services .hero p {
     color: #AF00FF;
     font-size: 20px;
@@ -812,6 +852,7 @@ header h1 {
     left: 300px;
     top: 185px;
 }
+
 .list_service li {
     margin-bottom: 24px;
     color: rgba(11, 16, 21, 0.7);
