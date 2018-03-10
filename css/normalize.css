@@ -256,6 +256,8 @@ textarea {
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
   font-family: 'Ubuntu', sans-serif;
+  background-color: transparent;
+  border: none;
 }
 
 /**
