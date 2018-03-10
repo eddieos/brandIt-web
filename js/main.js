@@ -268,4 +268,11 @@ jQuery(document).ready(function($){
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
     });
 
+    $('#contact').fullpage({
+        //Navigation
+        menu: '#menu',
+
+
+    });
+
 });

@@ -177,6 +177,16 @@ header h1 {
         transition: all 0.3s;
     }
 
+    #cd-nav .nav_dark li a {
+        padding: .4em;
+        margin-left: 1.6em;
+        border-bottom: none;
+        color: #2c3e50;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+
     #cd-nav li a:hover {
         color: #ffffff;
         opacity: 1;
@@ -185,6 +195,16 @@ header h1 {
 
     #cd-nav li a.active {
         border-bottom: 2px solid #FFF;
+    }
+
+    #cd-nav li a:hover {
+        color: #2c3e50;
+        opacity: 1;
+        border-bottom: 2px solid #2c3e50;
+    }
+
+    #cd-nav .nav_dark li a.active {
+        border-bottom: 2px solid #2c3e50;
     }
 
     #cd-nav.is-fixed ul {
@@ -535,6 +555,11 @@ header h1 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.bg_contact {
+    background-image: linear-gradient(to right, #54e7f4, #f2f4f5);
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .ui-ux, .marketing {
     background-color: #2C3E50 !important;
 }
@@ -576,12 +601,21 @@ header h1 {
     left: 202px;
     top: -120px;
     position: relative;
+    z-index: 2;
 }
 
 .content_projects {
     left: 250px;
     top: -50px;
     position: relative;
+    z-index: 2;
+}
+
+.content_contact {
+    left: 250px;
+    top: -50px;
+    position: relative;
+    z-index: 2;
 }
 
 .content_projects h1 {
@@ -592,6 +626,21 @@ header h1 {
 .content_projects p {
     font-size: 25px;
     color: rgba(255, 255, 255, 0.7);
+    font-weight: 100;
+    width: 400px;
+    line-height: 29px;
+    margin-top: 30px;
+}
+
+.content_contact h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.content_contact p {
+    font-size: 25px;
+    color: rgba(44, 62, 80, 0.7);
     font-weight: 100;
     width: 400px;
     line-height: 29px;
@@ -759,11 +808,24 @@ header h1 {
     overflow: hidden;
 }
 
+.big_c {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 740px;
+    font-weight: bold;
+    color: rgba(44, 62, 80, 0.11);
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 202px;
+    overflow: hidden;
+}
+
 .content_services .hero p {
     color: #AF00FF;
     font-size: 20px;
     font-weight: normal;
     margin-left: 20px;
+    z-index: 2;
 }
 
 .content_services .hero .list li {
